@@ -7,6 +7,13 @@ section {
     border-radius: 20px;
 }
 
+/*#brand-image{
+    height: 30px;
+    margin: auto;
+    vertical-align: center;
+    text-align: center;
+}*/
+
 /*.navbar-inverse .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
  a:hover {background-color: #28597a;}, .navbar-default .navbar-nav > .active > a:focus {
 background-color: #28597a;
