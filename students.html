@@ -6,13 +6,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
 	<!-- Bootstrap -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-
-	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
     <!-- Open Sans Font -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -25,18 +24,21 @@
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">UASS
-                    <!--<img id="brand-image" src="img/UASS_Logo_Big.png">-->
-                        <!--<img alt="UASS" src="img/UASS_Logo.png" style="vertical-align:middle; width:75px;" />-->
-				</a>
+				<a class="navbar-brand" href="index.html">UASS</a>
 			</div>
 			<div>
 				<ul class="nav navbar-nav">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="#">Page 1</a></li>
-					<li><a href="#">Page 2</a></li>
+					<li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Documentation <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="docs/Proposal_Final.pdf">Proposal</a></li>
+                        </ul>
+                    </li>
+					<li><a href="#">Media</a></li>
 					<li class="active"><a href="#">Students</a></li>
 				</ul>
+                
 			</div>
 		</div>
 	</nav>
@@ -65,7 +67,6 @@
                             <br /><br />                            
                             In his free time Clayton enjoys the recreation opportunities that Alaska has to offer and has recently 
                             developed a love for mountaineering and back-country skiing.
-
                             </p>
                         </div>
                     </div>
@@ -278,17 +279,18 @@
                         <div class="col-md-8">
                             <p>
                             <br />
-                            <!--
-                            Shoa Russel got her undergratuate degree at FSU. While there, she worked on a number of interesting projects.
-                            For her senior design project, she lead a team that modified MIT's tin-can radar to measure the wing beat frequency of bird wings.
-                            She also built a simple robotic hand controlled with an Arduino Uno and flex potentiometers. 
                             
+                            Shoa Russel got her undergratuate degree at FSU. While there, she worked on a number of interesting projects.
+                            These include: her senior design project, in which she lead a team that modified MIT's tin-can radar to measure the wing beat frequency of bird wings;
+                            a simple robotic hand controlled with an Arduino Uno and flex potentiometers; and a video game built in VHDL and displayed over VGA, with an
+                            enemy character that looked oddly similar to her teacher at the time.
+                            <!--
                             Shoa Russell to college at FSU and was on the deans honors list my last two semesters there. 
                             Projects include:
                             Being the project lead for my Tin-Can Radar Senior design project in which we modified MITs tin-can radar design and worked with Detect to see if we could see the wing beat frequency of birds wings using the radar. 
                             Also build a simple robotic made from scratch using an Arduino Uno and flex potentiometers to mimic the movements of a gloved hand. 
                             And my favorite, built a video game in VHDL and displayed it using VGA, the game included multiple lives, levels, and characters. The "enemy" character looked oddly similar to my teacher at the time. ;) 
--->
+                            -->
                             </p>
                         </div>
                     </div> 
